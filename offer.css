@@ -1,0 +1,27 @@
+.offer {
+    background: radial-gradient(#fff,#0000c6);
+    margin-top: 80px;
+}
+
+.offer > .row {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.offer > .row > .offer-image {
+    flex-basis: 50%;
+    min-width: 300px;
+}
+
+.offer > .row > .offer-image img {
+    max-width: 100%;
+    padding: 50px 0;
+}
+
+.offer > .row > .offer-text h1 {
+    font-size: 36px;
+    line-height: 40px;
+    margin: 20px 0;
+}

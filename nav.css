@@ -1,0 +1,106 @@
+.navigation-wrapper {
+    height: 60px;
+    background-color: #11122b;
+    color: #cbcbcb;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 70px 50px;
+    box-sizing: border-box;
+}
+
+nav > .left-column > .banner-image {
+    display: flex;
+    justify-content: center;
+}
+
+nav > .left-column > .banner-image img{
+    width: 216px;
+    height: 100%;
+}
+
+.navigation-wrapper > .left-column {
+    display: flex;
+    align-items: center;
+}
+
+.navigation-wrapper > .left-column > .banner-image {
+    display: flex;
+    justify-content: center;
+}
+
+.navigation-wrapper > .left-column > .banner-image img {
+    width: 216px;
+    height: 100%;
+}
+
+.navigation-wrapper > .right-column {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.links-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.links-wrapper >.nav-link {
+    width: 70px;
+    text-align: center;
+}
+
+.links-wrapper > .nav-link a {
+    font-family: "Poppins", serif;
+    color: #cbcbcb;
+    text-decoration: none;
+    transition: 0.5s;
+}
+
+.links-wrapper > .nav-link a:hover {
+    color: #cea135;
+    letter-spacing: 0.7px;
+}
+
+.links-wrapper > .nav-link a i {
+    font-size: 20px;
+    transition: transform 0.5s ease-in-out;
+}
+
+.links-wrapper > .nav-link a i:hover {
+    transform: scale(1.2);
+}
+
+.navigation-wrapper > .right-column > .links-wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+
+.navigation-wrapper > .right-column > .links-wrapper > .nav-link {
+    width: 30px;
+    margin: 25px;
+}
+
+.navigation-wrapper > .right-column > .links-wrapper > .nav-link a {
+    font-family: 'Poppins', sans-serif;
+    font-size: 1em;
+    color: #cbcbcb;
+    text-decoration: none;
+    transition: 0.5s;
+}
+
+.navigation-wrapper > .right-column > .links-wrapper > .nav-link a:hover {
+    letter-spacing: 0.05em;
+    color: #cea135;
+}
+
+
+.navigation-wrapper > .right-column > .links-wrapper > .nav-link a i {
+    font-size: 20px;
+    transition: transform 0.5s ease-in-out;
+}
+
+.navigation-wrapper > .right-column > .links-wrapper > .nav-link a i:hover {
+    transform: scale(1.2);
+}

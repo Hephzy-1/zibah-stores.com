@@ -1,0 +1,128 @@
+.features-section > .row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.features-section > .row > .more-products {
+    flex-basis: 25%;
+    padding: 10px;
+    min-width: 200px;
+    margin-bottom: 50px;
+    transition: 0.5s;
+}
+
+.features-section > .row > .more-products img {
+    width: 80%;
+}
+
+.features-section > h2 {
+    text-align: center;
+    text-transform: uppercase;
+    position: relative;
+    margin-top: 20px;
+    padding-bottom: 20px;
+    line-height: 60px;
+    color: #555;
+}
+
+.features-section > h2::after {
+    content: '';
+    background-color: #ff523b;
+    width: 80px;
+    height: 5px;
+    border-radius: 5px;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+h4 {
+    color: #555;
+    font-weight: normal;
+}
+
+.features-section > .row > .more-products p {
+    font-size: 15px;
+}
+
+.features-section > .row > .more-products:hover {
+    transform: translateY(-5px);
+}
+
+.features-section > .row > .more-products > .rating i {
+    color: #ff523b;
+}
+
+.features-section > .more-products p {
+    font-size: 15px;
+}
+
+.features-section > .more-products:hover {
+    transform: translateY(-5px);
+}
+
+.features-section > .more-products > .rating i {
+    color: #ff523b;
+}
+
+.features-section > .latest-product {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.features-section > .latest-product > .more-products {
+    flex-basis: 25%;
+    padding: 15px;
+    min-width: 200px;
+    margin-bottom: 50px;
+    transition: 0.5s;
+}
+
+.features-section > .latest-product > .more-products img {
+    width: 80%;
+}
+
+.features-section > .latest-product > .more-products p {
+    font-size: 15px;
+}
+
+.features-section > .latest-product > .more-products:hover {
+    transform: translateY(-5px);
+}
+
+.features-section > .latest-product > .more-products > .rating i {
+    color: #ff523b;
+}
+
+.features-section > .newest-product {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.features-section > .newest-product > .more-products {
+    flex-basis: 25%;
+    padding: 10px;
+    min-width: 200px;
+    margin-bottom: 50px;
+    transition: 0.5s;
+}
+
+.features-section > .newest-product > .more-products img {
+    width: 80%;
+}
+
+.features-section > .newest-product > .more-products p {
+    font-size: 15px;
+}
+
+.features-section > .newest-product > .more-products:hover {
+    transform: translateY(-5px);
+}
+
+.features-section > .newest-product > .more-products > .rating i {
+    color: #ff523b;
+}

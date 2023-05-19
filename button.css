@@ -1,0 +1,20 @@
+button {
+    background-color: #1B73D3;
+    color: #f2f2f5;
+    font-size: 1.25em;
+    margin: 30px 60px;
+    padding: 10px 25px;
+    border: 1px solid #1B73D3;
+    border-radius: 20px;
+    outline: none;
+    transition: 0.3s;
+}
+
+button a {
+    text-decoration: none;
+    color: #f2f2f5;
+}
+
+button a:active {
+    box-shadow: 5px 5px 30px rgba(0, 0, 0, 0.4);
+}

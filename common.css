@@ -1,0 +1,28 @@
+body {
+    margin: 0px;
+    font-family: 'Poppins', serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Roboto', serif;
+}
+
+.cart-icon {
+    width: 17px;
+    margin-left: 30px;
+    font-size: 1.5em;
+}
+.menu-icon {
+    width: 15px;
+    height: 30px;
+    margin-left: 30px;
+    display: none;
+}
+
+.menu-icon img {
+    width: 35px;
+}
+
+.rating i {
+    color: orangered;
+}
